@@ -1,0 +1,64 @@
+<html>
+<head>
+<link rel="hortcut icon" type= "image//jpg" href="utn/logo.jpg">
+<link rel="stylesheet" type="text/css" href="css/estilos.css">
+<link rel="stylesheet" type="text/css" href="css/fontello.css">
+<meta charset="utf-8">
+
+<title>Formulario</title>
+
+</head>
+<body>
+	<div class="contenedor">
+	
+		<header>
+			<h1>Universidad Tecnológica Nacional</h1>
+			<img src="utn/logo.jpg">
+			
+		</header>
+		<nav>
+			<ul>
+			<<li><a href="index.html">Inicio</a></li>
+			<li><a href="contenido1.html">Carreras</a></li>
+			<li><a href="contenido2.html">Historia de la universidad</a></li>
+			<li><a href="contenido3.html">Carreras presenciales/distancia</a></li>
+			<li><a href="contenido4.html">Carreras de posgrado</a></li>
+			<li><a href="envia.html">Formulario a enviar</a></li>
+			
+		</ul>
+		</nav>
+		
+		<section class="contenido">
+<h3 align="center">FORMULARIO A ENVIAR</h3>
+<form method="GET" action="recibe.php">
+  
+  <label for="fname">Nombre:</label><br>
+  <input type="text" id="fname" name="fname" value=""><br>
+  <label for="lname">Apellido:</label><br>
+  <input type="text" id="lname" name="lname" value=""><br>
+  <h4>Modalidad de cursado</h4>
+  <input type="checkbox" id="presencial" name="presencial" value="Presencial">
+  <label for="Virtual"> Virtual</label><br>
+   <input type="checkbox" id="virtual" name="virtual" value="Virtual">
+  <label for="vehicle1"> Presencial</label><br>
+  <h4>Carreras</h4>
+  <input type="checkbox" id="ingenieria" name="ingenieria" value="ingenieria">
+  <label for="ingenieria"> Ingenieria</label><br>
+   <input type="checkbox" id="licenciatura" name="licenciatura" value="licenciatura">
+  <label for="licenciatura"> Licenciatura</label><br>
+   <input type="checkbox" id="posgrado" name="posgrado" value="posgrado">
+  <label for="posgrado"> Posgrado</label><br>
+   <input type="checkbox" id="tecuni" name="tecuni" value="tecuni">
+  <label for="tecuni"> Tecnicatura Universitaria</label><br>
+  <h4>Turno</h4>
+  <input type="checkbox" id="mañana" name="mañana" value="mañana">
+  <label for="mañana"> Mañana</label><br>
+    <input type="checkbox" id="tarde" name="tarde" value="tarde">
+  <label for="tarde"> Tarde</label><br>
+    <input type="checkbox" id="vespertino" name="vespertino" value="vespertino">
+  <label for="vespertino"> Vespertino</label><br>
+ <input type="submit" value="Submit"> 
+ 
+</form>
+</body>
+</html>
